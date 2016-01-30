@@ -1,22 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
 	<meta charset="UTF-8">
 	<title>contact form</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<form action="" method="post">
-		<div>
+		<div class="contact_name">
 			<label for="name">Name:</label>
 			<input type="text" id="name" />
 		</div>
-		<div>
+		<div class="contact_mail">
 			<label for="mail">E-mail:</label>
 			<input type="email" id="mail" />
 		</div>
-		<div>
+		<div class="contact_msg">
 			<label for="msg">Message:</label>
 			<textarea id="msg"></textarea>
+		</div>
+		<div class="contact_button">
+			<button type="submit">Submit</button>
 		</div>
 	</form>
 </body>
